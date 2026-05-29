@@ -1,10 +1,10 @@
 # Supply Chain Logistics & Performance Overview
 
 ## Live Interactive Dashboard
-👉 [Click Here to View the Live Interactive Dashboard]([PASTE_YOUR_COPIED_TABLEAU_PUBLIC_URL_HERE](https://public.tableau.com/shared/4DPS7CXTF?:display_count=n&:origin=viz_share_link))
+👉 [Click Here to View the Live Interactive Dashboard]((https://public.tableau.com/shared/4DPS7CXTF?:display_count=n&:origin=viz_share_link))
 
 ## Dashboard Preview
-![Dashboard Preview](dashboard_preview.jpg)
+![Dashboard Preview](<img width="1061" height="567" alt="Dashboard_preview" src="https://github.com/user-attachments/assets/9318f6ad-967b-4c59-847e-34f690b6c660" />)
 
 ## Project Overview
 This project delivers an end-to-end Business Intelligence solution using Tableau to optimize supply chain operations, financial tracking, and distribution timelines. Analyzing a dense dataset of over 180,000 logistics records, the dashboard provides executive-level visibility into systemic delivery risks, fulfillment efficiencies, and revenue generation.
