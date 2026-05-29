@@ -1,13 +1,9 @@
 # Supply Chain Logistics & Performance Hub
 
-## Quick Links & Project Previews
-
-[![Tableau](https://img.shields.io/badge/Tableau-Live_Interactive_Dashboard-blue?style=for-the-badge&logo=tableau&logoColor=white)](https://public.tableau.com/shared/4DPS7CXTF?:display_count=n&:origin=viz_share_link)
-
-### 🖥️ Live Interactive Dashboard
+### Live Interactive Dashboard
 👉 **[Click Here to Explore the Live Interactive Tableau Dashboard](https://public.tableau.com/shared/4DPS7CXTF?:display_count=n&:origin=viz_share_link)**
 
-### 📸 Dashboard Interface Preview
+### Dashboard Interface Preview
 ![Supply Chain Dashboard Preview](<img width="1678" height="1208" alt="dashboard_preview" src="https://github.com/user-attachments/assets/e0ea2d88-fe02-4578-8726-530563c6f49e" />
 )
 
