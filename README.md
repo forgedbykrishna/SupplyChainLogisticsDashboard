@@ -1,25 +1,33 @@
-# Supply Chain Logistics & Performance Overview
+# Supply Chain Logistics & Performance Hub
 
-## 📊 Live Interactive Dashboard
-👉 [Click Here to View the Live Interactive Dashboard]([PASTE_YOUR_COPIED_TABLEAU_PUBLIC_URL_HERE](https://public.tableau.com/shared/4DPS7CXTF?:display_count=n&:origin=viz_share_link))
+## Quick Links & Project Previews
 
-## Dashboard Preview
-![Dashboard Preview](<img width="1061" height="567" alt="Dashboard_preview" src="https://github.com/user-attachments/assets/1ea27186-5a88-4afb-9a66-ae466c834b18" />
+[![Tableau](https://img.shields.io/badge/Tableau-Live_Interactive_Dashboard-blue?style=for-the-badge&logo=tableau&logoColor=white)](https://public.tableau.com/shared/4DPS7CXTF?:display_count=n&:origin=viz_share_link)
+
+### 🖥️ Live Interactive Dashboard
+👉 **[Click Here to Explore the Live Interactive Tableau Dashboard](https://public.tableau.com/shared/4DPS7CXTF?:display_count=n&:origin=viz_share_link)**
+
+### 📸 Dashboard Interface Preview
+![Supply Chain Dashboard Preview](<img width="1678" height="1208" alt="dashboard_preview" src="https://github.com/user-attachments/assets/e0ea2d88-fe02-4578-8726-530563c6f49e" />
 )
 
+---
+
 ## Project Overview
-This project delivers an end-to-end Business Intelligence solution using Tableau to optimize supply chain operations, financial tracking, and distribution timelines. Analyzing a dense dataset of over 180,000 logistics records, the dashboard provides executive-level visibility into systemic delivery risks, fulfillment efficiencies, and revenue generation.
+This business intelligence solution optimizes global supply chain logistics, distribution timelines, and financial metrics. Processing an enterprise-scale dataset of over **180,000 transaction records**, the dashboard delivers executive-level operational visibility, isolating systemic bottlenecks, shipping delays, and regional delivery risks to streamline decision-making.
 
-## Tech Stack & Analytics Concepts
-* **Visualization Engine:** Tableau Public
-* **Data Layer:** DataCo Supply Chain Dataset (~180,000+ transactional records)
-* **Core Analytics Techniques:** Custom Calculated Fields, Aggregate Functions, Geographic Mapping, User Interface (UI) Dashboard Sizing & Alignment, Dynamic Dashboard Filter Actions
+## Tech Stack & Core Competencies
+* **Analytics Engine:** Tableau Desktop / Tableau Public Cloud
+* **Data Source:** DataCo Supply Chain Dataset (180,000+ rows)
+* **Core Architectures:** Custom Calculated Fields, Level of Detail (LOD) Expressions, Spatial Mapping, UI/UX Floating Container Layout Design, Dynamic Filter Actions
 
-## Key Metrics Engineered
-* **Total Revenue:** Evaluates absolute financial performance across processing streams via `SUM([Sales])`.
-* **Avg Shipping Delay (Days):** Pinpoints operational friction by tracking the exact discrepancy between actual transit durations and scheduled expectations via `AVG([Days for shipping (real)] - [Days for shipment (scheduled)])`.
-* **Late Delivery Rate (%):** Isolates systemic logistics breakdown thresholds by calculating the precise ratio of delayed shipments via `SUM(IF [Delivery Status] = 'Late delivery' THEN 1 ELSE 0 END) / COUNT([Delivery Status])`.
+## Analytical Metrics Engineered
+* **Total Revenue:** Aggregates absolute sales performance across multi-channel distribution layers using `SUM([Sales])`.
+* **Avg Shipping Delay:** Quantifies logistics efficiency thresholds by mapping the variance between real transit times and scheduled arrival targets:
+  $$\text{Shipping Delay} = \text{AVG}([\text{Days for shipping (real)}] - [\text{Days for shipment (scheduled)}]))$$
+* **Late Delivery Rate (%):** Isolates supply chain friction by determining the precise breakdown ratio of delayed fulfillment:
+  $$\text{Late Delivery Rate} = \frac{\sum \mathbb{I}(\text{Status} = \text{'Late delivery'})}{\text{Count}(\text{Status})}$$
 
-## Impact & Insights Documented
-* **Regional Bottleneck Isolation:** Developed high-visibility spatial mapping to identify specific regional hubs suffering from critical late delivery frequencies (surpassing a 54% baseline threshold).
-* **Fulfillment Visibility:** Designed an executive summary grid that condenses high-velocity, multi-variable logistics data into actionable performance streams, reducing corporate insight retrieval time.
+## Key Data Insights Documented
+* **Regional Bottleneck Isolation:** Developed high-contrast geographic heat mapping that pinpointed specific fulfillment centers experiencing late delivery frequencies exceeding a critical **54% baseline threshold**.
+* **Fulfillment Transparency:** Consolidated complex, multi-variable transactional arrays into a single-pane executive matrix, reducing insights retrieval latency for operational managers.
