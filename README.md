@@ -4,7 +4,7 @@
 👉 **[Click Here to Explore the Live Interactive Tableau Dashboard](https://public.tableau.com/shared/4DPS7CXTF?:display_count=n&:origin=viz_share_link)**
 
 ### Dashboard Interface Preview
-![Supply Chain Dashboard Preview](<img width="1678" height="1208" alt="dashboard_preview" src="https://github.com/user-attachments/assets/e0ea2d88-fe02-4578-8726-530563c6f49e" />
+![Supply Chain Dashboard Preview]([<img width="1678" height="1208" alt="dashboard_preview" src="https://github.com/user-attachments/assets/e0ea2d88-fe02-4578-8726-530563c6f49e" />](https://github.com/forgedbykrishna/SupplyChainLogisticsDashboard/blob/69ecd132059a006857765c168495355486d4e0d2/assets/Dashboard_preview.png)
 )
 
 ---
